@@ -11,21 +11,29 @@ fn main() {
     let mut t = a;
     let mut y = 0.5; // y(0) = 0.5
 
-    // Function for dy/dt = 1 - t^2 + y
-    fn f(t: f64, y: f64) -> f64 {
+    // Vector to store y values
+    let mut y_list = Vec::new();
+    y_list.push(y); // Store initial value of y
+
+    // Function dy/dt = 1 - t^2 + y
+    fn dydt(t: f64, y: f64) -> f64 {
         1.0 - t.powi(2) + y
     }
 
-    // Runge-Kutta method
+    // Runge-Kutta Fourth Order method
     for _i in 0..n {
-        let k1 = h * f(t, y);
-        let k2 = h * f(t + h / 2.0, y + k1 / 2.0);
-        let k3 = h * f(t + h / 2.0, y + k2 / 2.0);
-        let k4 = h * f(t + h, y + k3);
+        let k1 = h * dydt(t, y);
+        let k2 = h * dydt(t + h / 2.0, y + k1 / 2.0);
+        let k3 = h * dydt(t + h / 2.0, y + k2 / 2.0);
+        let k4 = h * dydt(t + h, y + k3);
 
         y += (k1 + 2.0 * k2 + 2.0 * k3 + k4) / 6.0;
         t += h;
+        y_list.push(y); // Store the value of y for each step
     }
 
-    println!("The value of y at t = {} is {}", t, y);
+    // Print the values of y at each step
+    for (index, value) in y_list.iter().enumerate() {
+        println!("Step {}: y({}) = {}", index, a + index as f64 * h, value);
+    }
 }
