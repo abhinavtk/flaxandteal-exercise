@@ -1,7 +1,7 @@
 // Exercise 1 - Solve the initial value problem (IVP) using the Fourth-Order Runge-Kutta (RK4) method
 // dy/dt = 1 - t^2 + y, y(0) = 0.5, 0 <= t <= 2 with n = 10
 
-fn main() {
+pub fn rk4() {
     let a = 0.0;    // initial value of t
     let b = 2.0;    // final value of t
     let n = 10;     // number of steps
