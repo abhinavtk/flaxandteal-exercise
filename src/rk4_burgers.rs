@@ -15,7 +15,7 @@ fn dudt(u: &[f64; NX], i: usize) -> f64 {
     NU * d2u_dx2 - udu_dx
 }
 
-fn main() {
+pub fn solve_burgers() {
     let mut u = [0.0; NX];
     let mut u_new = [0.0; NX];
     let mut u_prev = [0.0; NX];
