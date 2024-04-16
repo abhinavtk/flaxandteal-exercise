@@ -13,7 +13,8 @@ The Burgers equation is a fundamental partial differential equation in fluid mec
 
 **Usage** <br>
 The following steps will allow you to run this Rust project and see outputs.
-1. Clone the repository to your local machine:  ```console
+1. Clone the repository to your local machine:  
+```
 git clone https://github.com/abhinavtk/flaxandteal-exercise.git
 ```
 2. Navigate into the project directory: 
