@@ -6,8 +6,9 @@ This Rust project implements the Runge-Kutta 4th Order method for solving initia
 The Runge-Kutta 4th order (RK4) method is a widely used numerical technique for solving ordinary differential equations (ODEs). It is a higher-order method that provides relatively accurate solutions compared to simpler methods like Euler's method.<br>
 
 ## Source Files 
-1. [rk4_ivp.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_ivp.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving an initial value problem. 
-2. [rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving the Burgers equation for fluid flow. <br>
+1. [main.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/main.rs) - Prompts the user to choose which program to execute. 
+2. [rk4_ivp.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_ivp.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving an initial value problem. 
+3. [rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving the Burgers equation for fluid flow. <br>
 
 ## Usage
 The following steps will allow you to run this Rust project and see the outputs.
