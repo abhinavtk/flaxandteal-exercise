@@ -9,6 +9,6 @@ The Burgers equation is a fundamental partial differential equation in fluid mec
 
 **Files** <br>
 [rk4_ivp.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_ivp.rs): Contains the implementation of the Runge-Kutta 4th Order method for solving initial value problems.  <br>
-[rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs): Contains the implementation of the Burgers equation using the Runge-Kutta 4th Order method. <br>
+[rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs): Contains the implementation of the Runge-Kutta 4th Order method for solving the Burgers equation for fluid flow. <br>
 
 **Usage** <br>
