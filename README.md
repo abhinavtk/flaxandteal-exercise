@@ -3,12 +3,10 @@
 This Rust project implements the Runge-Kutta 4th Order method for solving initial value problem (IVP) and the Burgers equation for fluid flow. <br>
 
 ## Overview
-The Runge-Kutta 4th Order method is a numerical technique used to approximate the solution of ordinary differential equations (ODEs). It is particularly useful for solving initial value problems where the value of the function and its derivative(s) at a single point are known.<br>
-
-The Burgers equation is a fundamental partial differential equation in fluid mechanics that describes the behavior of viscous fluids. The solver provided in this project utilizes the Runge-Kutta 4th Order method to approximate the solution of the Burgers equation. <br>
+The Runge-Kutta 4th order (RK4) method is a widely used numerical technique for solving ordinary differential equations (ODEs). It is a higher-order method that provides relatively accurate solutions compared to simpler methods like Euler's method.<br>
 
 ## Source Files 
-1. [rk4_ivp.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_ivp.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving initial value problems. 
+1. [rk4_ivp.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_ivp.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving an initial value problem. 
 2. [rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving the Burgers equation for fluid flow. <br>
 
 ## Usage
