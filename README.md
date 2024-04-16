@@ -8,7 +8,7 @@ The Runge-Kutta 4th Order method is a numerical technique used to approximate th
 The Burgers equation is a fundamental partial differential equation in fluid mechanics that describes the behavior of viscous fluids. The solver provided in this project utilizes the Runge-Kutta 4th Order method to approximate the solution of the Burgers equation. <br>
 
 **Files** <br>
-[rk4_ivp.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_ivp.rs): Contains the implementation of the Runge-Kutta 4th Order method for solving initial value problems.
-[rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs): Contains the implementation of the Burgers equation using the Runge-Kutta 4th Order method.
+[rk4_ivp.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_ivp.rs): Contains the implementation of the Runge-Kutta 4th Order method for solving initial value problems.  <br>
+[rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs): Contains the implementation of the Burgers equation using the Runge-Kutta 4th Order method. <br>
 
 **Usage** <br>
