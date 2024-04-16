@@ -1,5 +1,5 @@
 // Exercise 2 - Solve Burger's equation for fluid flow using RK4, assuming some initial conditions.
-// dudt = NU * d2u_dx2 - udu_dx
+// Burger's equation: dudt = NU * d2u_dx2 - udu_dx
 // Initial conditions: u(x, 0) = 0.5 * (1 - exp(-x^2)), 0 <= x <= 10
 
 const NX: usize = 10;  // Number of spatial points
@@ -8,6 +8,7 @@ const DT: f64 = 1.0;   // Time step
 const DX: f64 = 1.0;   // Spatial step
 const NU: f64 = 0.01;  // Viscosity
 
+// Burger's equation
 fn dudt(u: &[f64; NX], i: usize) -> f64 {
     let du_dx = (u[i + 1] - u[i - 1]) / (2.0 * DX);  // central difference approx. of first derivative
     let udu_dx = u[i] * du_dx;
@@ -15,6 +16,7 @@ fn dudt(u: &[f64; NX], i: usize) -> f64 {
     NU * d2u_dx2 - udu_dx
 }
 
+// Solve Burger's equation using RK4
 pub fn solve_burgers() {
     let mut u = [0.0; NX];
     let mut u_new = [0.0; NX];
