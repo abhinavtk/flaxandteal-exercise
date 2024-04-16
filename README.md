@@ -12,7 +12,7 @@ The Burgers equation is a fundamental partial differential equation in fluid mec
 2. [rk4_burgers.rs](https://github.com/abhinavtk/flaxandteal-exercise/blob/main/src/rk4_burgers.rs) - Contains the implementation of the Runge-Kutta 4th Order method for solving the Burgers equation for fluid flow. <br>
 
 ## Usage
-The following steps will allow you to run this Rust project and see outputs.
+The following steps will allow you to run this Rust project and see the outputs.
 1. Clone the repository to your local machine:  
 ```
 git clone https://github.com/abhinavtk/flaxandteal-exercise.git
@@ -26,6 +26,9 @@ cd flaxandteal-exercise
 cargo run
 ```
 You will be prompted to choose an option:  <br>
-&emsp; * Enter 1 to solve an initial value problem (IVP) using RK4. <br>
-&emsp; * Enter 2 to solve Burger's equation using RK4. <br>
+&emsp; - Enter 1 to solve an initial value problem (IVP) using RK4. <br>
+&emsp; - Enter 2 to solve Burger's equation using RK4. <br>
 4. Follow the on-screen instructions to input your choice and view the results. <br>
+
+## Dependencies
+This project uses the Rust programming language and Cargo, the Rust package manager. No additional dependencies are required. <br>
