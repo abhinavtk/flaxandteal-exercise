@@ -17,4 +17,15 @@ The following steps will allow you to run this Rust project and see outputs.
 ```
 git clone https://github.com/abhinavtk/flaxandteal-exercise.git
 ```
-2. Navigate into the project directory: 
+2. Navigate to the project directory: 
+```
+cd flaxandteal-exercise
+```
+3. Compile and run the project:
+```
+cargo run
+```
+You will be prompted to choose an option:  <br>
+Enter 1 to solve an initial value problem (IVP) using RK4.
+Enter 2 to solve Burger's equation using RK4.
+Follow the on-screen instructions to input your choice and view the results.
